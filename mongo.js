@@ -107,7 +107,7 @@ let update = (collectionName, findParams, updateParams) => {
 
 let close = (__callback) => {
     if (libMongo.dbConfig.init) {
-        __logger.warn('libMongo.close, function called', {uri: libMongo.dbConfig.uri});
+        console.error('libMongo.close, function called', {uri: libMongo.dbConfig.uri});
         libMongo.client.close();
         __callback(null);
     } else {
