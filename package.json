@@ -1,6 +1,6 @@
 {
   "name": "mongolib",
-  "version": "2.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "mongo.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pravindot17/mongolib/issues"
   },
-  "homepage": "https://github.com/pravindot17/mongolib#readme"
+  "homepage": "https://github.com/pravindot17/mongolib#readme",
+  "dependencies": {
+    "mongodb": "^3.0.10"
+  }
 }
